@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["export default function Index() {\n  return (\n    <div className=\"h-screen bg-slate-700 flex justify-center items-center\">\n      <h2 className=\"text-gray-200 font-extrabold text-5xl\">\n        TailwindCSS Is Working!\n      </h2>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAe,SAAR,QAAyB;AAC9B,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IACb,6DAAC;AAAA,MAAG,WAAU;AAAA,MAAwC;AAAA,OAAtD;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,KAHF;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;",
+  "names": []
+}

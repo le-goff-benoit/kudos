@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/layout.tsx", "../../../app/routes/login.tsx"],
+  "sourcesContent": ["export function Layout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"h-screen w-full bg-blue-600 font-mono\">{children}</div>\n  );\n}\n", "import { Layout } from \"~/components/layout\";\n\nexport default function Login() {\n  return (\n    <Layout>\n      <h2 className=\"text-yellow-300 font-extrabold text-5xl\">Login Route</h2>\n    </Layout>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;AAAO,SAAS,OAAO,EAAE,SAAS,GAAkC;AAClE,SACE,mDAAC;AAAA,IAAI,WAAU;AAAA,IAAyC;AAAA,KAAxD;AAAA;AAAA;AAAA;AAAA,SAAiE;AAErE;;;ACJA;AAEe,SAAR,QAAyB;AAC9B,SACE,mDAAC;AAAA,IACC,6DAAC;AAAA,MAAG,WAAU;AAAA,MAA0C;AAAA,OAAxD;AAAA;AAAA;AAAA;AAAA,WAAmE;AAAA,KADrE;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}
